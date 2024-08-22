@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target" : "ESNext", // 변환되는 js코드가 사용할 js버전 
+    "module" : "ESNext", // 변환되는 js코드가 사용할 모듈 시스템
+    "outDir" : "dist",
+    "moduleDetection" : "force", // 개별모듈로 취급
+    "strict" : true,
+    // "strictNullChecks" : false // 엄격한 null 검사
+  },
+  "tsx": {
+    "esm": true
+  },
+  "include": ["src"]
+}

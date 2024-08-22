@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // 최신 ECMAScript 버전으로 컴파일
+    "module": "ESNext", // Node.js의 ESM 지원을 위해 설정
+    "skipLibCheck": true, //타입 정의 파일의 타입 검사를 생략하는 옵션
+    "outDir": "dist",
+    "strict": true, // 타입을 엄격하게 확인 -> js를 ts로 변경시킬 때는 false 사용하여 유연하게 대비
+    "moduleDetection": "force" // 전역 모듈이 아닌 개별 모듈로 만들어줌
+
+  },
+  "include": ["src"] // src 디렉토리 내의 모든 파일 컴파일
+}
